@@ -1,7 +1,7 @@
 // TuiApplication
 // An application class, to handle console input/output.
 // A TuiApplication object is created in main(), and its run() method called to enter the main loop of the application.
-class TuiApplication : MenuItemHandler {
+class TuiApplication {
     val university = University()
 
     fun addStudent() {
@@ -66,9 +66,5 @@ class TuiApplication : MenuItemHandler {
         }
     }
 
-    // TODO complete.
-    override fun onMenuItemSelected(choice: Int) {
-        println("Choice $choice selected.")
-
-    }
+    // TODO complete the onMenuItemSelected() defined by the interface.
 }
